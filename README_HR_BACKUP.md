@@ -1,19 +1,19 @@
-# Servicio de Respaldo de Empleados de Odoo
+# Employee Backup Service for Odoo
 
-Script en Python para interactuar con la API de Odoo y respaldar los datos de empleados. 
+Python script to interact with the Odoo API and back up employee data.
 
-## 📋 Requisitos Previos
+## 📋 Prerequisites
 
-Antes de configurar el servicio, asegúrate de contar con lo siguiente:
+Before setting up the service, make sure you have the following:
 
 1. **Python 3**  
-   Verifica que Python 3 esté instalado en tu sistema.
+   Verify that Python 3 is installed on your system.
 
-2. **Acceso a la API de Odoo**  
-   Asegúrate de tener las credenciales y permisos necesarios para acceder a la API de Odoo.
+2. **Access to the Odoo API**  
+   Ensure you have the necessary credentials and permissions to access the Odoo API.
 
-3. **Paquetes de Python Requeridos**  
-   Instala los siguientes paquetes utilizando `pip`:
+3. **Required Python Packages**  
+   Install the following packages using `pip`:
 
    ```bash
    pip install pandas
