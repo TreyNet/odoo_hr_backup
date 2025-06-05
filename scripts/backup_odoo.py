@@ -152,7 +152,7 @@ def main():
     json_path = '../hr_backup.json'
     image_dir = '../emp_img'
     
-    print(f"{get_timestamp()} - Loading existing backup file: backup-bb-spain.json")
+    print(f"{get_timestamp()} - Loading existing backup file: hr_backup.json")
     existing_by_email = load_existing_backup(json_path)
 
     print(f"{get_timestamp()} - Fetching employees data from Odoo...")
